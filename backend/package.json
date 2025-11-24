@@ -4,10 +4,10 @@
   "description": "Backend API for the RestoHub application, managing orders, restaurants and user interactions.",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "jest",
-    "build": "node build.js"
-  },
+  "start": "node src/index.js",
+  "test": "jest",
+  "build": "echo \"Build step (no real build)\""
+},
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.0"
